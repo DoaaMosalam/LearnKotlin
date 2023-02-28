@@ -12,8 +12,8 @@ fun main(args:Array<String>){
 
     val a:MutableList<Int> = mutableListOf<Int>(1,2,3)
  a.add(4)
- println("a=$a")
-
+    println("a=$a")
+    println("==================================================")
     val b:MutableMap<Int,String> = mutableMapOf<Int,String>()
     b[9]="Doaa"
     b[3]="Sayed"
@@ -24,7 +24,7 @@ fun main(args:Array<String>){
 
     v[100]="Youssef"
  println("v=$v")
- //===============================================
+ //=====================================================================================================================
     println("============================================================================")
  val stickerList = listOf<String>("Smile","Sad","Happy")
  println(stickerList)

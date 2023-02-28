@@ -13,9 +13,6 @@ fun main(args:Array<String>){
     for (i in 0 until x.size){
         print("Index: ${i+1}=${x[i]}\t")
     }
-//    println("\n============================================")
-//    z.forEach{ println(it)}
-
-
-
+    println("\n============================================")
+    z.forEach{ println(it)}
 }

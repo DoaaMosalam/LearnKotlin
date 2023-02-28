@@ -6,5 +6,4 @@ fun main(args: Array<String>) {
     val attachment2 = Attachment<Int,Boolean>()
     attachment2.sum(2,true)
 
-
 }
