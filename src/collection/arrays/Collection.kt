@@ -28,13 +28,25 @@ fun main(args:Array<String>){
     println("============================================================================")
  val stickerList = listOf<String>("Smile","Sad","Happy")
  println(stickerList)
-
+// used filter in array and listOf
+    // A filter that returns the required value from the Array, as requested by the programmer
     val filter = stickerList.filter { it[0] == 'S'}
     println("Filter list= $filter")
+    println("============================================================================")
+    /*Used filterNot in array and listOf
+     A filter that returns the required value from the Array, 
+     if this value found in array return value 
+    if this value not found in array return null 
+     as requested by the programmer*/
     val filterNot = stickerList.filterNot { it[0] =='S' }
     println("Filter Not $filterNot")
+    println("============================================================================")
+    /* A find that returns the required value from the Array,
+    * if value found in array return value alse return null */
     val find = stickerList.find { it[0]=='S' }
     println("Find $find")
+    println("============================================================================")
+    //Used findLast in listOf
     val findLast = stickerList.findLast { it[it.length-1]=='d' }
     println("findlast $findLast")
  val strickerMap:Map<String,Int> = mapOf<String,Int>("Smile" to 1, "Sad" to 2,"Happy" to 3)
@@ -42,7 +54,9 @@ fun main(args:Array<String>){
  val stickerSet:Set<String> = setOf("smile","Sed","Happy","Sed")
  println(stickerSet)
 
-    
+
+
+
 
 
 
