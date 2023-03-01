@@ -19,6 +19,7 @@ fun main(args:Array<String>){
     b[3]="Sayed"
     b.put(44,"Mosalam")
     println("B=$b")
+
     val c:MutableSet<Int> = mutableSetOf<Int>()
     val v=HashMap<Int,String>()
 
