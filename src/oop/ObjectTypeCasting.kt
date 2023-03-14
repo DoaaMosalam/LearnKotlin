@@ -11,7 +11,7 @@ package oop
       //or
 
 fun main(args: Array<String>){
-    var y=Y()
+    var y= oop.Y()
     var d = y.casting()
     d.a=10
     println("$d")
@@ -21,7 +21,7 @@ class X{
 }
 class Y{
     fun casting():X{
-        var s = X()
+        var s = oop.X()
         return s
     }
 }

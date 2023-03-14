@@ -18,6 +18,6 @@ class Add {
     }
 }
 fun main (args:Array<String>){
-    var add= Add()
+    var add= oop.Add()
     add.addNumber()
 }

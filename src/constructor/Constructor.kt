@@ -2,7 +2,7 @@ package constructor
 
 import java.time.Year
 
-fun main(args: Array<String>) {
+fun main() {
      val firstUser = Constructor( "Doaa Mosalam", 32, "Egypt")
     val secondUser = Constructor( "Mohamed Ahmed", 35, "Arabic Unit state")
 
