@@ -14,13 +14,13 @@ class Human() {
 }
 fun main(args:Array<String>){
       //Object from class Human
-    val h1 = Human()
-
+    val h1 = oop.Human()
 //    "Doaa Mosalam".also { this.name = it }
 //    "Female".also { this.gender=it }
-////    h1.gender="Female"
+//    h1.gender="Female"
 //    160.also { this.length = it }
 //    h1.infoHuman()
+
                  //or This.
 
     h1.run {

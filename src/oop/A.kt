@@ -10,7 +10,7 @@ fun main(args: Array<String>) {
     B.e
     B.sum()
 
-    val b = B()
+    val b = oop.B()
     b.x=10
     b.y=10
 

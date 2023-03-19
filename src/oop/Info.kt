@@ -17,7 +17,7 @@ class Info(n:String?,ae:Int?,g: String?,job:String?) {
 }
 
 fun main(args: Array<String>) {
-    var info = Info("Doaa Mosalam", 31, "Female", "Arabic Teacher")
+    var info = oop.Info("Doaa Mosalam", 31, "Female", "Arabic Teacher")
 
     println(info.name)
     println(info.age)

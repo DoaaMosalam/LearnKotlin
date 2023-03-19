@@ -1,7 +1,7 @@
 package oop
 
 fun main(args: Array<String>) {
-    val x = AccessModifier()
+    val x = oop.AccessModifier()
     x.name1
 //    x.name2
 //    x.name3
