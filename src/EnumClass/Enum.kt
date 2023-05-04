@@ -1,4 +1,4 @@
-package oop
+package EnumClass
 
 fun main(){
     Direction.North.getDir()
